@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+        <include
+                domain="sharedpref"
+                path="." />
+        <exclude
+                domain="sharedpref"
+                path="login.xml" />
+        <exclude
+                domain="sharedpref"
+                path="com.google.mlkit.internal.xml" />
+        <include
+                domain="database"
+                path="smoothie.db" />
+        <exclude domain="root" />
+        <include
+                domain="root"
+                path="app_flutter/barcodelists.hive" />
+        <include
+                domain="root"
+                path="app_flutter/instantstring.hive" />
+        <include
+                domain="root"
+                path="app_flutter/int.hive" />
+        <include
+                domain="root"
+                path="app_flutter/products.hive" />
+        <include
+                domain="root"
+                path="app_flutter/robotoffmap.hive" />
+        <include
+                domain="root"
+                path="app_flutter/string.hive" />
+        <include
+                domain="root"
+                path="app_flutter/stringlist.hive" />
+</full-backup-content>
